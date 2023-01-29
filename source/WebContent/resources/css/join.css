@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*section*/
+#section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#section > div {
+	width: 1050px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+#form_title {
+	font-size: 30px;
+	font-weight: 600;
+}
+#form {
+	display : flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 530px;
+	padding : 20px 0 20px 10px;
+	margin-top: 20px;
+	
+}
+
+#section button:not(#submit) {
+	height: 36px;
+	margin: 0 0 0 5px;
+	border: 0;
+	border-radius: 5px;
+	background-color: rgb(206, 206, 206);
+}
+.inputbtn {
+	width:105px;
+}
+
+
+#submit {
+	height: 36px;
+	width: 308px;
+	margin-right: 112px;
+	background-color: #99D3FD;
+	border: 0;
+	border-radius: 5px;
+}
+
+input {
+	outline: none;
+}
+
+.joinInput {
+	width: 300px;
+	height: 30px;
+}
+.inputArea {
+	display: flex;
+	width: 420px;
+	margin-bottom: 35px;
+}
+
+.inputArea > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.popMessage {
+	position: absolute;
+	font-size: 14px;
+}
+
+
+
+
+
+

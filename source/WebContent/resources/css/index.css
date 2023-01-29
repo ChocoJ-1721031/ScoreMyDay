@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/*section*/
+#section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+}
+#section > div {
+	width: 1050px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+#calendar {
+	width: 1050px;
+}
+
+
+/*action material css code*/
+/*modalBox*/
+#sModal_parent {
+	
+}
+#sModal_parent_2, #sModal_parent_3 {
+    opacity: 1;
+    transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    height: 100%;
+    outline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sModal {
+	display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    transition: background-color .1s;
+    z-index: 9999!important;
+}
+#sModal_content {
+	background-color: #fff;
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*----------------------modalContent_1--------------------------*/
+#modalContent_1, #modalContent_4, #modalContent_6 {
+	display: flex;
+	justify-content: space-between;
+}
+
+#close_sModal, #close_add {
+	display:inline-block;*display:inline;
+	border-radius: 50%;
+}
+#close_sModal:after, #close_add:after {
+	display: inline-block;content: "\00d7"; font-size:15pt;
+}
+
+/*----------------------modalContent_2--------------------------*/
+#modalContent_2 {
+	display: flex;
+	justify-content: space-between;
+}
+#schedule_area {
+	width: 200px;
+	height: 250px;
+	border: 1px solid black;
+	overflow: scroll;
+}
+#schedule_area_2 {
+	display: flex;
+	flex-direction: column;
+	
+}
+.daySchedule {
+	display: flex;
+	justify-content: space-between;
+	max-width: 180px;
+	margin: 3px 5px 3px 5px;
+}
+.daySchedule_title {
+	width: 150px;
+	overflow-wrap: break-word;
+}
+.delBtn {
+	max-height: 20px;
+}
+#schedule {
+	margin: 3px;
+	background-color: skyblue;
+}
+#graph_area {
+	width: 250px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#graph {
+	display: flex;
+	justify-content: space-around;
+}
+#servey, #score {
+	
+}
+#servey > div, #score > div {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	font-size: 50px;
+}
+
+#serveyBtn {
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*----------------------modalContent_3--------------------------*/
+#diary_area {
+	margin-top: 10px;
+	width: 488px;
+	height: 190px;
+	border: 1px solid black;
+	padding: 5px;
+}
+#diary {
+	overflow: scroll;
+}
+/*----------------------modalContent_5--------------------------*/
+#modalContent_5, #modalContent_7 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#modalContent_5 > div:first-child, #modalContent_7 > div:first-child {
+	margin-top: 30px;
+}
+#modalContent_5 > div:nth-child(2), #modalContent_7 > div:nth-child(2) {
+	margin-top: 30px;
+}
+#title {
+	width: 300px;
+	height: 30px;
+	overflow: scroll;
+	overflow-wrap: break-word;
+	font-size: 20px;
+}
+#modalContent_5 > div:last-child, #modalContent_7 > div:last-child {
+	margin-top: 30px;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+#add, #cancel, #update {
+	width: 120px;
+}
+
+
+
+/*----------------------modalContent_8--------------------------*/
+.scheduleList {
+	
+}
+
+
+
+
+
+
+
+
+

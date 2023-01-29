@@ -1,0 +1,5 @@
+#jdbc.properties
+driver=oracle.jdbc.driver.OracleDriver
+url=jdbc:oracle:thin:@localhost:1521:xe
+user=S12
+pw=S12

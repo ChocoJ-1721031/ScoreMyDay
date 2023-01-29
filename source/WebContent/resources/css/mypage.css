@@ -1,0 +1,79 @@
+@charset "UTF-8";
+#section {
+	display: flex;
+	justify-content: center;
+}
+#section > div {
+	width: 1050px;
+	display: flex;
+	justify-content: center;
+}
+#profile_area {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	padding: 80px 20px 0 20px;
+}
+#profile_area > span {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+}
+#profile_area > #nameArea, #profile_area > #pwdArea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+#profile_area > #nameArea > button, #profile_area > #pwdArea > button{
+	width: 300px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#nameInputArea, #pwdInputArea {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#nameInputArea > input, #pwdInputArea > input {
+	width: 292px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#serveyData_area {
+	width: 650px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+}
+#score_area {
+	display: flex;
+}
+#score_area > div:first-child {
+	display: flex;
+	margin-left: 50px;
+}
+#score_area > select {
+	width: 80px;
+	font-size: 20px;
+}
+#servey_avg, #score_avg {
+	width: 120px;
+	display: flex;
+	flex-direction:column;
+	align-items: center; 
+}
+#servey_avg_data, #score_avg_data {
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
